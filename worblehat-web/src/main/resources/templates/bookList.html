@@ -24,7 +24,7 @@
 			<td th:text="${book.edition}">1st</td>
 			<td th:text="${book.isbn}">123456</td>
 			<td th:text="${book?.borrowing?.borrowerEmailAddress}">someone@codecentric.de</td>
-			<td th:text="${book.description}"></td>
+			<td th:utext="${#strings.replace(book.description,'&#10','&lt;br /&gt;')}"></td>
 		</tr>
 	</tbody>
 	</table>
