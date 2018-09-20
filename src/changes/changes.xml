@@ -24,5 +24,21 @@
 				Return all borrowed books by one member.
 			</action>
 		</release>
+		<release version="1.2" date="2018-09-20"
+				 description="Release with new technical framework updates and one added functionality">
+			<action dev="betaworblers" type="update">
+				Upgrades to Spring Boot 2.0.5
+			</action>
+			<action dev="betaworblers" type="add">
+				Adds description on book entity
+			</action>
+			<action dev="betaworblers" type="fix">
+				Translated error messages
+			</action>
+			<action dev="betaworblers" type="add">
+				Adds version number on home page.
+			</action>
+
+		</release>
 	</body>
 </document>
