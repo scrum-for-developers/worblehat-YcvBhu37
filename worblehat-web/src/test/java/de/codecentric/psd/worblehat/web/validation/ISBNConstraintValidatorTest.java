@@ -45,4 +45,10 @@ public class ISBNConstraintValidatorTest {
         assertFalse(actual);
     }
 
+    @Test
+    public void shouldReturnTrueFor13DigitIfvalidISBN() throws Exception {
+        boolean actual = isbnConstraintValidator.isValid("01234597892X", constraintValidatorContext);
+        assertFalse(actual);
+    }
+
 }
