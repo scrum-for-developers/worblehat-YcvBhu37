@@ -17,7 +17,7 @@ import java.util.Set;
 public class StandardBookService implements BookService {
 
 	public StandardBookService() {
-
+		// Default Constructor
 	}
 
 	@Autowired

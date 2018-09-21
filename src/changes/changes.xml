@@ -40,5 +40,11 @@
 			</action>
 
 		</release>
+		<release version="1.3" date="2018-09-20"
+				 description="Release with one added functionality">
+			<action dev="team_koffein" type="update">
+				Adds book description
+			</action>
+		</release>
 	</body>
 </document>
